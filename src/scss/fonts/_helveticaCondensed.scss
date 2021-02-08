@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Helvetica Condensed CE";
+  src: url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCELight.eot");
+  src: local("Helvetica Condensed CE Light"), local("HelveticaCondensedCELight"),
+    url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCELight.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCELight.woff2") format("woff2"), url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCELight.woff") format("woff"),
+    url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCELight.ttf") format("truetype"),
+    url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCELight.svg#HelveticaCondensedCELight") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Condensed CE";
+  src: url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCE.eot");
+  src: local("Helvetica Condensed CE"), local("HelveticaCondensedCE"),
+    url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCE.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCE.woff2") format("woff2"), url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCE.woff") format("woff"),
+    url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCE.ttf") format("truetype"),
+    url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCE.svg#HelveticaCondensedCE") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Condensed CE";
+  src: url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCE-Bold.eot");
+  src: local("Helvetica Condensed CE Bold"), local("HelveticaCondensedCE-Bold"),
+    url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCE-Bold.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCE-Bold.woff2") format("woff2"), url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCE-Bold.woff") format("woff"),
+    url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCE-Bold.ttf") format("truetype"),
+    url("~@/assets/fonts/HelveticaCondensed/HelveticaCondensedCE-Bold.svg#HelveticaCondensedCE-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
