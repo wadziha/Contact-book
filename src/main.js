@@ -6,7 +6,7 @@ import eventBus from './utils/eventBus'
 import JsonCSV from 'vue-json-csv'
 
 import VuePapaParse from 'vue-papa-parse'
-Vue.user(VuePapaParse)
+Vue.use(VuePapaParse)
 
 import './scss/style.scss'
 Vue.component('downloadCsv', JsonCSV)

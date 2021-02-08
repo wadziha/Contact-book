@@ -23,6 +23,9 @@ export default new Vuex.Store({
     deleteContact(state, index) {
       state.contacts.splice(index, 1)
     },
+    importContacts(state, data) {
+      state.contacts = data
+    },
   },
   actions: {
     addContact({ commit, dispatch }, contact) {
@@ -35,6 +38,10 @@ export default new Vuex.Store({
     },
     deleteContact({ commit, dispatch }, index) {
       commit('deleteContact', index)
+      dispatch('saveContacts')
+    },
+    importContacts({ commit, dispatch }, data) {
+      commit('importContacts', data)
       dispatch('saveContacts')
     },
     loadStorage({ state, commit }) {
